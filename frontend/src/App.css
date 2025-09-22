@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f6f8;
+}
+
+.navbar {
+  background-color: #1da1f2;
+  padding: 12px 20px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container {
+  max-width: 700px;
+  margin: 20px auto;
+  padding: 0 15px;
+}
+
+.post-card {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.post-card h3 {
+  margin: 0 0 10px;
+  color: #333;
+}
+
+.post-card p {
+  color: #555;
+}
+
+button {
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+
+button:hover {
+  background-color: #0d8ddb;
+}
